@@ -1,0 +1,43 @@
+/* src/index.css */
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Center content vertically and horizontally */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Style headings */
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
